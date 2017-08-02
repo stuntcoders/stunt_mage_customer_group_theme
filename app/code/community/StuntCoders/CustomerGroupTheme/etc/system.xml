@@ -1,0 +1,22 @@
+<config>
+    <sections>
+        <design>
+            <groups>
+                <theme>
+                    <fields>
+                        <sc_customer_group_map translate="label comment">
+                            <label>Customer Group theme</label>
+                            <frontend_model>stuntcoders_customergrouptheme/form_field_array</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Specify theme per customer group (use package/theme format)</comment>
+                        </sc_customer_group_map>
+                    </fields>
+                </theme>
+            </groups>
+        </design>
+    </sections>
+</config>
