@@ -1,6 +1,6 @@
 <?php
 
-class Stuntcoders_CustomerGroupTheme_Block_Form_Field_Array extends
+class StuntCoders_CustomerGroupTheme_Block_Form_Field_Array extends
     Mage_Adminhtml_Block_System_Config_Form_Field_Array_Abstract
 {
     protected function _prepareToRender()

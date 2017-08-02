@@ -1,6 +1,6 @@
 <?php
 
-class Stuntcoders_CustomerGroupTheme_Helper_Data extends Mage_Core_Helper_Abstract
+class StuntCoders_CustomerGroupTheme_Helper_Data extends Mage_Core_Helper_Abstract
 {
     const THEME_MAP_CONFIG_PATH = 'design/theme/sc_customer_group_map';
 

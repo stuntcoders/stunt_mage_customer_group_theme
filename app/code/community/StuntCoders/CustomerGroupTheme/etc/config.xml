@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Stuntcoders_CustomerGroupTheme>
+        <StuntCoders_CustomerGroupTheme>
             <version>0.1.0</version>
-        </Stuntcoders_CustomerGroupTheme>
+        </StuntCoders_CustomerGroupTheme>
     </modules>
     <global>
         <models>
             <stuntcoders_customergrouptheme>
-                <class>Stuntcoders_CustomerGroupTheme_Model</class>
+                <class>StuntCoders_CustomerGroupTheme_Model</class>
                 <resourceModel>stuntcoders_customergrouptheme_resource</resourceModel>
             </stuntcoders_customergrouptheme>
             <stuntcoders_customergrouptheme_resource>
-                <class>Stuntcoders_CustomerGroupTheme_Model_Resource</class>
+                <class>StuntCoders_CustomerGroupTheme_Model_Resource</class>
             </stuntcoders_customergrouptheme_resource>
         </models>
         <blocks>
             <stuntcoders_customergrouptheme>
-                <class>Stuntcoders_CustomerGroupTheme_Block</class>
+                <class>StuntCoders_CustomerGroupTheme_Block</class>
             </stuntcoders_customergrouptheme>
         </blocks>
         <helpers>
             <stuntcoders_customergrouptheme>
-                <class>Stuntcoders_CustomerGroupTheme_Helper</class>
+                <class>StuntCoders_CustomerGroupTheme_Helper</class>
             </stuntcoders_customergrouptheme>
         </helpers>
     </global>

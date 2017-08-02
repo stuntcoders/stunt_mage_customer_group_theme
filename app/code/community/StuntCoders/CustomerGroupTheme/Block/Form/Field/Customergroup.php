@@ -1,6 +1,6 @@
 <?php
 
-class Stuntcoders_CustomerGroupTheme_Block_Form_Field_Customergroup extends Mage_Core_Block_Html_Select
+class StuntCoders_CustomerGroupTheme_Block_Form_Field_Customergroup extends Mage_Core_Block_Html_Select
 {
     /**
      * {@inheritdoc}

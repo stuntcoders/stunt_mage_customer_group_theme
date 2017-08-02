@@ -1,6 +1,6 @@
 <?php
 
-class Stuntcoders_CustomerGroupTheme_Model_Observer
+class StuntCoders_CustomerGroupTheme_Model_Observer
 {
     /**
      * @param Varien_Event_Observer $observer
