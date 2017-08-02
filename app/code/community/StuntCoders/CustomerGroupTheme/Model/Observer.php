@@ -28,7 +28,7 @@ class StuntCoders_CustomerGroupTheme_Model_Observer
     }
 
     /**
-     * @return Stuntcoders_CustomerGroupTheme_Helper_Data
+     * @return StuntCoders_CustomerGroupTheme_Helper_Data
      */
     protected function _getHelper()
     {

@@ -21,6 +21,9 @@ class StuntCoders_CustomerGroupTheme_Block_Form_Field_Array extends
         parent::_prepareToRender();
     }
 
+    /**
+     * @return StuntCoders_CustomerGroupTheme_Block_Form_Field_Customergroup
+     */
     protected function _getGroupRenderer()
     {
         if (!$this->getData('_renderer')) {
