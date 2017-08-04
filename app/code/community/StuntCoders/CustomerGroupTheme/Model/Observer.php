@@ -11,7 +11,12 @@ class StuntCoders_CustomerGroupTheme_Model_Observer
         $groupId = $this->_getCustomerGroupId(); Mage::helper('customer')->getCustomer()->getGroupId();
 
         if (isset($map[$groupId]) && !empty($map[$groupId])) {
-            Mage::getDesign()->setTheme($map[$groupId]);
+            $arr = explode('/', $map[$groupId]);
+            if (isset($arr[1])) {
+                Mage::getDesign()->setPackageName($arr[0])->setTheme($arr[1]);
+            } else {
+                Mage::getDesign()->setTheme($map[$groupId]);
+            }
         }
     }
 
